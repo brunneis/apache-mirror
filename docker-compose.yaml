@@ -1,0 +1,19 @@
+version: '3.4'
+
+x-logging:
+  &default
+  options:
+    max-size: '50m'
+    max-file: '1'
+  driver: json-file
+
+services:
+  mirror:
+    image: brunneis/apache-mirror
+    container_name: apache-mirror
+    volumes:
+      - ./data:/opt/httpd/htdocs
+      - ./README.html:/opt/httpd/htdocs/README.html:ro
+    ports:
+      - 80:80
+    logging: *default
