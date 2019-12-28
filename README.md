@@ -1,5 +1,5 @@
 # apache-mirror
-Easily mantain an Apache mirror updated twice a day with this Docker image.
+Easily maintain an Apache mirror updated twice a day with this Docker image.
 
 ## Usage
 Clone this repository
