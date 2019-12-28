@@ -12,7 +12,7 @@ IndexIgnore .htaccess .message HEADER.html README.html /theme
 # THEME FILES
 ###############################################################################
 HeaderName HEADER.html
-ReadmeName /README.html
+ReadmeName README.html
 IndexStyleSheet "/theme/style.css"
 ErrorDocument 404 default
 
