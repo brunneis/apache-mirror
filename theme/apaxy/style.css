@@ -1,0 +1,386 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+button,
+hr,
+input {
+  overflow: visible
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block
+}
+
+progress,
+sub,
+sup {
+  vertical-align: baseline
+}
+
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+menu,
+article,
+aside,
+details,
+footer,
+header,
+nav,
+section {
+  display: block
+}
+
+figcaption,
+figure,
+main {
+  display: block
+}
+
+figure {
+  margin: 1em 40px
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-size: 1em
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects
+}
+
+a:active,
+a:hover {
+  outline-width: 0
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted
+}
+
+b,
+strong {
+  font-weight: bolder
+}
+
+dfn {
+  font-style: italic
+}
+
+mark {
+  background-color: #ff0;
+  color: #000
+}
+
+small {
+  font-size: 80%
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative
+}
+
+sub {
+  bottom: -.25em
+}
+
+sup {
+  top: -.5em
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+img {
+  border-style: none
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0
+}
+
+button,
+input {}
+
+button,
+select {
+  text-transform: none
+}
+
+[type=submit],
+[type=reset],
+button,
+html [type=button] {
+  -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+  outline: ButtonText dotted 1px
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal
+}
+
+progress {}
+
+textarea {
+  overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+summary {
+  display: list-item
+}
+
+[hidden],
+template {
+  display: none
+}
+
+;
+
+/*------------------------------------*\
+    Apaxy
+    by @adamwhitcroft
+
+    Theme name: Apaxy
+    Theme author: @adamwhitcroft
+\*------------------------------------*/
+
+/* Hack font */
+@font-face {
+  font-family: 'Hack';
+  src: url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/fonts/hack-regular-subset.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/fonts/hack-regular-subset.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Have to use @import for the font, as you can only specify a single stylesheet */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  color: #61666c;
+  font-family: 'Hack';
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  -webkit-backface-visibility: hidden;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+a {
+  color: #61666c;
+  text-decoration: none;
+}
+
+a,
+img {
+  border: none;
+  outline: none;
+}
+
+a:hover {
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
+/*------------------------------------*\
+    Table (directory listing)
+\*------------------------------------*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .875em;
+}
+
+tr {
+  outline: 0;
+  border: 0;
+}
+
+tr:hover td {
+  background: #f6f6f6;
+}
+
+th {
+  text-align: left;
+  font-size: .75em;
+  padding-right: 20px;
+}
+
+/* 2nd Column: Filename */
+
+th+th {
+  width: 65%;
+}
+
+/* 3rd Column: Last Modified */
+th+th+th {}
+
+/* 4th Column: Size */
+th+th+th+th {
+  width: 5%;
+}
+
+tr td:first-of-type {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td {
+  padding: 5px 0;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #edf1f5;
+  vertical-align: middle;
+  text-align: left;
+  transition: background 300ms ease;
+  -o-transition: background 300ms ease;
+  -ms-transition: background 300ms ease;
+  -moz-transition: background 300ms ease;
+  -webkit-transition: background 300ms ease;
+}
+
+td a {
+  display: block;
+}
+
+tr.parent a[href^="/"] {
+  color: #9099A3;
+}
+
+.parent a[href^="/"]:hover {
+  color: #2281d0;
+}
+
+/*------------------------------------*\
+    Footer
+\*------------------------------------*/
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: .75em;
+}
+
+
+/*------------------------------------*\
+    Media query for small screens
+\*------------------------------------*/
+@media (max-width: 768px) {
+  body {
+    max-width: 90%;
+  }
+
+  .indexcollastmod {
+    display: none;
+  }
+}

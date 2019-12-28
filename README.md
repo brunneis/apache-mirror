@@ -14,3 +14,7 @@ docker-compose up -d
 ```
 
 > All the data will be stored in `./data` by default.
+
+## Credits
+- Theme for httpd derived from [apaxy](https://github.com/oupala/apaxy)
+- [Hack](https://sourcefoundry.org/hack/) typeface
