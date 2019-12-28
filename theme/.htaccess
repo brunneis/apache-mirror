@@ -3,7 +3,7 @@ Options Indexes SymLinksIfOwnerMatch FollowSymLinks
 IndexOptions Charset=UTF-8 FancyIndexing IgnoreCase FoldersFirst XHTML HTMLTable SuppressRules NameWidth=* IconsAreLinks ScanHTMLTitles
 
 # META VIEWPORT
-IndexHeadInsert "<script>document.title='Apache Mirror'</script><script src=\"/theme/apaxy.js\"></script><link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />"
+IndexHeadInsert "<script>document.title='Apache Mirror'</script><script src=\"/theme/apaxy.js\"></script><link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /><link rel=\"stylesheet\" href=\"//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css\">"
 
 # HIDE /theme DIRECTORY
 IndexIgnore .htaccess /theme
