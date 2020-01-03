@@ -12,7 +12,7 @@ services:
     image: brunneis/apache-mirror
     container_name: apache-mirror
     volumes:
-      - /media/mirror0/apache:/opt/httpd/htdocs
+      - ./data:/opt/httpd/htdocs
       - ./theme/README.html:/opt/httpd/htdocs/README.html:ro
       - ./theme/.htaccess:/opt/httpd/htdocs/.htaccess:ro
       - ./theme/apaxy:/opt/httpd/htdocs/theme:ro
